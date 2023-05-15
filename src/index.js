@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  // here we're inserting our App into our div in the public/index.html's root element
+  // the App component is our root component, every other component we make will be in App
   <React.StrictMode>
     <App />
   </React.StrictMode>
